@@ -21,9 +21,9 @@
         }
 
 
-        public void atalakit(string szoveg)
+        public string atalakit()
         {
-            
+            return Hazai + "-" + Idegen + " (" + HPont + ":" + IPont + ")";
 
         }
 

@@ -152,9 +152,10 @@ namespace kosar2004
             
             Console.WriteLine("8. feladat: ");
             StreamWriter sw = new StreamWriter("meccsek.txt");
-            for (int i = 0; i < meccsek.Count; i++)
+            foreach (var item in meccsek)
             {
-                sw.WriteLine("\t" + meccsek[i].Hazai + "-" + meccsek[i].Idegen + " (" + meccsek[i].HPont + ":" + meccsek[i].IPont + ")");
+                sw.WriteLine(item.atalakit());
+                
             }
 
             sw.Close();
