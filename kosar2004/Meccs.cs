@@ -17,7 +17,15 @@
             this.HPont = hpont;
             this.IPont = ipont;
             this.Hely = hely;
-            this.Idegen = idegen;
+            this.Ido = ido;
         }
+
+
+        public void atalakit(string szoveg)
+        {
+            
+
+        }
+
     }
 }
